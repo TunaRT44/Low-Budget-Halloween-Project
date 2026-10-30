@@ -1,0 +1,63 @@
+body {
+    background-color: #bf3434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.HeadPage {
+    text-align: center;
+    color: #ffffff;
+    background-color: #d35a22;
+    width: 250px;
+    height: 400px;
+    border: 3px solid #f0c5a2;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.Headword {
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;  
+    background-color: #f18648;
+}
+.text-gradient-1 {
+    font-weight: bold;
+    animation: text-gradient-1 2s linear infinite;
+}
+
+@keyframes text-gradient-1 {
+  0%{color: #ffffff;}  
+  25%{color: #ffcba1;} 
+  50%{color: #ff9462;}
+  75%{color: #ffcba1;}
+  100%{color: #ffffff;}
+}
+
+.version {
+    position: fixed;
+    right: -20px;
+    bottom: 5px;
+    color: #ffffff;
+    width: 100px;
+    height: 20px;
+    background-color: #d35a22;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.text-any1 {
+    position: fixed;
+    left: -20px;
+    top: 5px;
+    color: #ffffff;
+    text-align: right;
+    padding-right: 10px;
+    width: 225px;
+    height: 20px;
+    background-color: #d35a22;
+}
