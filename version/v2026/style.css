@@ -13,9 +13,9 @@ body {
     color: #ffffff;
     background-color: #d35a22;
     width: 100%;
-    height: 100%;
+    height: 55%;
     max-width: 505px;
-    max-height: 405px;
+    max-height: 700px;
     box-sizing: border-box;
     border: 3px solid #f0c5a2;
     border-radius: 10px;
@@ -102,6 +102,12 @@ body {
     transition: transform 0s ease-out;
 }
 
+.img-4 {
+    height: auto;
+    display: block;
+    transition: transform 0s ease-out;
+}
+
 @keyframes bounceEffect {
     0% { transform: scale(1.15); }
     50% { transform: scale(1.05); }
@@ -120,6 +126,12 @@ body {
     100% { transform: scale(1); }
 }
 
+@keyframes bounceEffect4 {
+    0% { transform: scale(1.15); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
 .bounce {
     animation: bounceEffect 0.1s ease-out forwards;
 }
@@ -130,6 +142,10 @@ body {
 
 .bounce3 {
     animation: bounceEffect3 0.1s ease-out forwards;
+}
+
+.bounce4 {
+    animation: bounceEffect4 0.1s ease-out forwards;
 }
 
 .rotating-items {
@@ -165,4 +181,21 @@ body {
     left: 20px;
     transform: rotate(-10deg);
     scale: 2;
+}
+
+.img-1 {
+    position: fixed;
+    bottom: -10px;
+    right: 20px;
+    transform: rotate(10deg);
+    scale: 1.5;
+    z-index: 1;
+}
+
+.img-2 {
+    position: fixed;
+    top: 5%;
+    left: 35%;
+    scale: 1;
+    z-index: -1;
 }
