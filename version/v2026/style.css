@@ -26,6 +26,13 @@ body {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .HeadPage {
+        width: 90% !important;
+        height: auto;
+    }
+}
+
 .Headword {
     margin: 0 auto;
     width: 250px;
